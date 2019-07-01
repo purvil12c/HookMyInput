@@ -20,7 +20,8 @@ function useHookMyInput(initialValue, onChangeCallback, onSubmitCallback){
 
     return {
         value: value,
-        onChangeHandler: onChangeHandler
+        onChangeHandler: onChangeHandler,
+        onSubmitHandler: onSubmitHandler
     }
 }
 
